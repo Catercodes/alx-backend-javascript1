@@ -1,6 +1,7 @@
 {
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
+    "lint:fix": "eslint 1-block-scoped.js --ext .js,.jsx,.ts,.tsx --fix",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
